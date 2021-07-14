@@ -110,7 +110,19 @@ hr{
     color: #ED6B4F;
     border-radius:50% solid #FFE4E8;
 } 
-
-
-
-    
+/* media quary */
+/* mobile device */
+@media(max-width: 688px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* tab device */
+@media(min-width: 800px){
+    .players{
+        background-color: #821cb1;
+    }
+    .blogs, .course{
+        display: none;
+    }
+}
